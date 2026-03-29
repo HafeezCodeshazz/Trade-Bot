@@ -101,7 +101,7 @@ python cli.py --log-level DEBUG order --symbol BTCUSDT --side BUY --type MARKET 
 
 ## Output Example
 
-=======================================================
+========================================================
 ORDER REQUEST SUMMARY
 
 Symbol : BTCUSDT

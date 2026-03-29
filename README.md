@@ -97,25 +97,26 @@ python cli.py account
 python cli.py --log-level DEBUG order --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
 ```
 
----
-
 ## Output Example
 
-========================================================
-ORDER REQUEST SUMMARY
+```
+=======================================================
+  ORDER REQUEST SUMMARY
+=======================================================
+  Symbol     : BTCUSDT
+  Side       : BUY
+  Type       : MARKET
+  Quantity   : 0.003
 
-Symbol : BTCUSDT
-Side : BUY
-Type : MARKET
-Quantity : 0.003
-
-ORDER RESPONSE
-Order ID : 13006501806
-Status : NEW
-Exec. Qty : 0.000
-Avg Price : 0.00
-Client OID : x-Cb7ytekJ4ae09f0aede22196e02d08
----
+  ORDER RESPONSE
+-------------------------------------------------------
+  Order ID   : 13006501806
+  Status     : NEW
+  Exec. Qty  : 0.000
+  Avg Price  : 0.00
+  Client OID : x-Cb7ytekJ4ae09f0aede22196e02d08
+=======================================================
+```
 
 ## Logs
 
